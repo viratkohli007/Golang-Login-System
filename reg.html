@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+</head>
+<body>
+	<p><h1 align="center">Registration</h1></p>
+    <form action="/display" method="Post">
+    	<div class="a">
+    <div class="form-group row">
+     <label for="fname" class="col-lg-2 col-form-label mr-2">First Name</label>
+     <input type="text" class="col-lg-7 form-control" name="first_name" required>
+    </div>
+
+    <div class="form-group row">
+     <label for="lname" class="col-lg-2 col-form-label mr-2">Last Name</label>
+     <input type="text" name="last_name" class="col-lg-7 form-control" required>
+    </div>
+
+
+    <div class="form-group row">
+     <label for="email" class="col-lg-2 col-form-label mr-2">Email</label>
+     <input type="email" name="email" class="col-lg-7 form-control" required>
+    </div>
+
+    <div class="form-group row">
+    	<label for="password" class="col-lg-2 col-form-label mr-2">Password</label>
+      <input type="password" name="password" class="col-lg-7 form-control" required>
+    </div>
+    <div class="form-group row">
+      <input type="submit" name="submit" class="btn btn-primary">
+    </div>
+    <p>Already have an id?<a href="/login">Login</a></p>
+
+    </div>
+    </form>
+    <p>Already have an id?<a href="/login">Login</a></p>
+
+</body>
+
+<style type="text/css">
+	.a{
+		margin: 10%;
+	}
+</style>
+</html>

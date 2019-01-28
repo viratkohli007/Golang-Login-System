@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+</head>
+<body>
+     <div class="jumbotron">
+     	<h1>You just entered the data</h1>
+     	<div class="container">
+     		 <p>First Name: {{ .FirstName }}</p>
+     		 <p>Last Name: {{ .LastName }}</p>
+         <p>Email: {{ .Email }}</p>
+         <form action="/login"><button class="btn btn-info">okay!!!</button>
+         </form>
+     	</div>
+     </div>
+
+</body>
+</html>
